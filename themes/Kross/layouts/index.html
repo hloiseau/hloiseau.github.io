@@ -1,0 +1,146 @@
+{{ define "main" }}
+
+  <!-- hero area -->
+  <section class="hero-area bg-primary overflow-hidden" id="parallax">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-11 mx-auto">
+          <h1 class="text-white font-tertiary">
+            {{ site.Data.homepage.banner.title | safeHTML }}
+            <div class="typing-carousel">
+              <span id="ityped" class="ityped"></span>
+              <span class="ityped-cursor"></span>
+            </div>
+            <ul id="typing-carousel-data">
+              {{ if site.Data.homepage.banner.summary }}
+                {{ range site.Data.homepage.banner.summary }}
+                  <li>{{ . }}</li>
+                {{ end}}
+              {{ end }}
+            </ul>
+          </h1>
+        </div>
+      </div>
+    </div>
+    <div class="layer-bg w-100">
+      <img class="img-fluid w-100" src="{{`images/illustrations/Background.jpg` | relURL}}" alt="bg-shape">
+    </div>
+    <div class="layer" id="l2">
+      <img src="{{`images/illustrations/android-brands.svg` | relURL}}" height="235px" style="filter: invert(1);" alt="bg-shape">
+    </div>
+    <div class="layer" id="l3">
+      <img src="{{`images/illustrations/css3-alt-brands.svg` | relURL}}" height="125px" style="filter: invert(1);" alt="bg-shape">
+    </div>
+    <div class="layer" id="l4">
+      <img src="{{`images/illustrations/dev-brands.svg` | relURL}}" height="50px" style="filter: invert(1);" alt="bg-shape">
+    </div>
+    <div class="layer" id="l5">
+      <img src="{{`images/illustrations/html5-brands.svg` | relURL}}" height="80px" style="filter: invert(1);" alt="bg-shape">
+    </div>
+    <div class="layer" id="l6">
+      <img src="{{`images/illustrations/js-brands.svg` | relURL}}" height="97px" style="filter: invert(1);" alt="bg-shape">
+    </div>
+    <div class="layer" id="l7">
+      <img src="{{`images/illustrations/microsoft-brands.svg` | relURL}}" height="150px" style="filter: invert(1);" alt="bg-shape">
+    </div>
+    <div class="layer" id="l8">
+      <img src="{{`images/illustrations/vuejs-brands.svg` | relURL}}" height="100px" style="filter: invert(1);" alt="bg-shape">
+    </div>
+    <div class="layer" id="l9">
+      <img src="{{`images/illustrations/github-brands.svg` | relURL}}" height="130px" style="filter: invert(1);" alt="bg-shape">
+    </div>
+    <!-- social icon -->
+    <ul class="list-unstyled ml-5 mt-3 position-relative zindex-1">
+      {{ range site.Params.social }}
+      <li class="mb-3"><a style="font-size: 40px;" class="text-white" href="{{.URL | safeURL }}"><i class="{{.icon}}"></i></a></li>
+      {{ end }}
+    </ul>
+    <!-- /social icon -->
+  </section>
+  <!-- /hero area -->
+
+  {{ if site.Data.homepage.about.enable }}
+  <!-- about -->
+  <section class="section">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-10 mx-auto text-center">
+          {{ with site.Data.homepage.about }}
+          <p class="font-secondary lead text-dark">{{.content | markdownify}}</p>
+          {{ if .button.enable }}
+          {{ with .button }}
+          <a href="{{ .URL | absURL }}" class="btn btn-transparent">{{.label}}</a>
+          {{ end }}
+          {{ end }}
+          {{ end }}
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- /about -->
+  {{ end }}
+
+
+  {{ if site.Data.homepage.experience.enable }}
+  {{ with site.Data.homepage.experience }}
+  <!-- experience -->
+  <section class="section">
+    {{ partial "sections/experiences.html" . }}
+  </section>
+  <!-- /experience -->
+  {{ end }}
+  {{ end }}
+
+  {{ if site.Data.homepage.education.enable }}
+  {{ with site.Data.homepage.education }}
+  <!-- education -->
+  <section class="section position-relative">
+    {{ partial "sections/education.html" . }}
+    <!-- bg image -->
+    <img class="img-fluid edu-bg-image w-100" style="top: 550px;" src="{{`images/backgrounds/education-bg.png`|relURL}}" alt="bg-image">
+  </section>
+  <!-- /education -->
+  {{ end }}
+  {{ end }}
+
+{{ if site.Data.homepage.skill.enable }}
+  <!-- skills -->
+  <section class="section">
+    {{ partial "sections/skills.html" . }}
+        <!-- bg image -->
+        <img class="img-fluid edu-bg-image w-100" src="{{`images/backgrounds/education-bg.png`|relURL}}" style="top: 720px;" alt="bg-image">
+  </section>
+  <!-- /skills -->
+  {{ end }}
+
+  {{ if site.Data.homepage.portfolio.enable }}
+  <!-- portfolio -->
+  <section class="section">
+    <div class="container">
+      <div class="row">
+        <div class="col-12 text-center">
+          <h2 class="section-title">{{ site.Data.homepage.portfolio.title | markdownify }}</h2>
+        </div>
+      </div>
+      <div class="row shuffle-wrapper">
+        {{ $item:= site.Data.homepage.portfolio.item_show }}
+        {{ range first $item (where .Site.RegularPages "Section" "projects") }}
+        <div class="col-lg-4 col-6 mb-4 shuffle-item">
+          <div class="position-relative rounded hover-wrapper">
+            <img src="{{.Params.image | absURL }}" alt="portfolio-image" class="img-fluid rounded w-100 d-block">
+            <div class="hover-overlay">
+              <div class="hover-content">
+                <a class="btn btn-light btn-sm" href="{{ .Permalink | safeURL }}">view project</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        {{ end }}
+      </div>
+    </div>
+  </section>
+  <!-- /portfolio -->
+  {{ end }}
+{{ end }}
+
+
