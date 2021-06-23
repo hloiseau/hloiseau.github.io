@@ -2,53 +2,53 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Réalisations on Hugo Loiseau</title>
-    <link>http://examplesite.com/projects/</link>
+    <link>https://hloiseau.github.io/projects/</link>
     <description>Recent content in Réalisations on Hugo Loiseau</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 01 Sep 2020 00:00:00 +0000</lastBuildDate><atom:link href="http://examplesite.com/projects/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 01 Sep 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://hloiseau.github.io/projects/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Portails Ketchapp en Blazor</title>
-      <link>http://examplesite.com/projects/ketchapp/</link>
+      <link>https://hloiseau.github.io/projects/ketchapp/</link>
       <pubDate>Tue, 01 Sep 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://examplesite.com/projects/ketchapp/</guid>
+      <guid>https://hloiseau.github.io/projects/ketchapp/</guid>
       <description>Application internes et externes Lors de mon alternance chez Ketchapp, j’ai travaillé sur 2 portails distincts permettant de faciliter la gestion de nos partenariats, de nos jeux, ainsi que les différents tests nécessaires.</description>
     </item>
     
     <item>
       <title>Cahier Numérique de l&#39;Entraineur</title>
-      <link>http://examplesite.com/projects/cne/</link>
+      <link>https://hloiseau.github.io/projects/cne/</link>
       <pubDate>Mon, 01 Apr 2019 00:00:00 +0000</pubDate>
       
-      <guid>http://examplesite.com/projects/cne/</guid>
+      <guid>https://hloiseau.github.io/projects/cne/</guid>
       <description>Remplacer les traditionnelles papiers et crayons Le CNE ou Cahier Numérique de L’Entraineur, est un projet ayant pour but de réunir tous les outils numériques nécessaires aux entraineurs de sportifs de haut niveau, conformément aux méthodes d’entrainements modernes.</description>
     </item>
     
     <item>
       <title>Vue 360° de l&#39;INSEP</title>
-      <link>http://examplesite.com/projects/vue360/</link>
+      <link>https://hloiseau.github.io/projects/vue360/</link>
       <pubDate>Mon, 01 Apr 2019 00:00:00 +0000</pubDate>
       
-      <guid>http://examplesite.com/projects/vue360/</guid>
+      <guid>https://hloiseau.github.io/projects/vue360/</guid>
       <description>A partir de zéro Lors de mon stage à l’INSEP, j’ai eu pour missions de réaliser, à partir de zéro, une vue 360° du campus de Vincennes.</description>
     </item>
     
     <item>
       <title>All’In: Casino Bitcoin</title>
-      <link>http://examplesite.com/projects/allin/</link>
+      <link>https://hloiseau.github.io/projects/allin/</link>
       <pubDate>Sat, 01 Sep 2018 00:00:00 +0000</pubDate>
       
-      <guid>http://examplesite.com/projects/allin/</guid>
+      <guid>https://hloiseau.github.io/projects/allin/</guid>
       <description>All&amp;rsquo;In est une regroupe plusieurs jeux de casino comme le poker, le blackjack ou encore le yams.</description>
     </item>
     
     <item>
       <title>Fusion</title>
-      <link>http://examplesite.com/projects/fusion/</link>
+      <link>https://hloiseau.github.io/projects/fusion/</link>
       <pubDate>Sun, 01 Apr 2018 00:00:00 +0000</pubDate>
       
-      <guid>http://examplesite.com/projects/fusion/</guid>
+      <guid>https://hloiseau.github.io/projects/fusion/</guid>
       <description>Fusion est une application ayant pour but de « Fusionner » les différentes fonctionnalités de votre téléphone Android avec vos autres appareils.</description>
     </item>
     

@@ -2,9 +2,9 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>À propos on Hugo Loiseau</title>
-    <link>http://examplesite.com/about/</link>
+    <link>https://hloiseau.github.io/about/</link>
     <description>Recent content in À propos on Hugo Loiseau</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language><atom:link href="http://examplesite.com/about/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-us</language><atom:link href="https://hloiseau.github.io/about/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

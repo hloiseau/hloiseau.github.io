@@ -2,60 +2,60 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://examplesite.com/categories/</loc>
+    <loc>https://hloiseau.github.io/categories/</loc>
     <lastmod>2020-09-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://examplesite.com/</loc>
+    <loc>https://hloiseau.github.io/</loc>
     <lastmod>2020-09-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://examplesite.com/projects/ketchapp/</loc>
+    <loc>https://hloiseau.github.io/projects/ketchapp/</loc>
     <lastmod>2020-09-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://examplesite.com/projects/</loc>
+    <loc>https://hloiseau.github.io/projects/</loc>
     <lastmod>2020-09-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://examplesite.com/categories/r%C3%A9alisations-professionels/</loc>
+    <loc>https://hloiseau.github.io/categories/r%C3%A9alisations-professionels/</loc>
     <lastmod>2020-09-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://examplesite.com/projects/cne/</loc>
+    <loc>https://hloiseau.github.io/projects/cne/</loc>
     <lastmod>2019-04-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://examplesite.com/projects/vue360/</loc>
+    <loc>https://hloiseau.github.io/projects/vue360/</loc>
     <lastmod>2019-04-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://examplesite.com/projects/allin/</loc>
+    <loc>https://hloiseau.github.io/projects/allin/</loc>
     <lastmod>2018-09-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://examplesite.com/categories/r%C3%A9alisations-scolaires/</loc>
+    <loc>https://hloiseau.github.io/categories/r%C3%A9alisations-scolaires/</loc>
     <lastmod>2018-09-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://examplesite.com/projects/fusion/</loc>
+    <loc>https://hloiseau.github.io/projects/fusion/</loc>
     <lastmod>2018-04-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://examplesite.com/skills/agilit%C3%A9/</loc>
+    <loc>https://hloiseau.github.io/skills/agilit%C3%A9/</loc>
   </url><url>
-    <loc>http://examplesite.com/skills/ambitieux/</loc>
+    <loc>https://hloiseau.github.io/skills/ambitieux/</loc>
   </url><url>
-    <loc>http://examplesite.com/skills/autoformation/</loc>
+    <loc>https://hloiseau.github.io/skills/autoformation/</loc>
   </url><url>
-    <loc>http://examplesite.com/skills/blazor/</loc>
+    <loc>https://hloiseau.github.io/skills/blazor/</loc>
   </url><url>
-    <loc>http://examplesite.com/skills/csharp/</loc>
+    <loc>https://hloiseau.github.io/skills/csharp/</loc>
   </url><url>
-    <loc>http://examplesite.com/skills/</loc>
+    <loc>https://hloiseau.github.io/skills/</loc>
   </url><url>
-    <loc>http://examplesite.com/categories/comp%C3%A9tences-humaines/</loc>
+    <loc>https://hloiseau.github.io/categories/comp%C3%A9tences-humaines/</loc>
   </url><url>
-    <loc>http://examplesite.com/categories/comp%C3%A9tences-techniques/</loc>
+    <loc>https://hloiseau.github.io/categories/comp%C3%A9tences-techniques/</loc>
   </url><url>
-    <loc>http://examplesite.com/contact/</loc>
+    <loc>https://hloiseau.github.io/contact/</loc>
   </url><url>
-    <loc>http://examplesite.com/skills/frontend/</loc>
+    <loc>https://hloiseau.github.io/skills/frontend/</loc>
   </url><url>
-    <loc>http://examplesite.com/skills/pers%C3%A9v%C3%A9rance/</loc>
+    <loc>https://hloiseau.github.io/skills/pers%C3%A9v%C3%A9rance/</loc>
   </url><url>
-    <loc>http://examplesite.com/tags/</loc>
+    <loc>https://hloiseau.github.io/tags/</loc>
   </url><url>
-    <loc>http://examplesite.com/about/</loc>
+    <loc>https://hloiseau.github.io/about/</loc>
   </url>
 </urlset>
