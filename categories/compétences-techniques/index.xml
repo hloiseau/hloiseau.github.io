@@ -2,34 +2,34 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Compétences Techniques on Hugo Loiseau</title>
-    <link>https://hloiseau.github.io/categories/comp%C3%A9tences-techniques/</link>
+    <link>http://examplesite.com/categories/comp%C3%A9tences-techniques/</link>
     <description>Recent content in Compétences Techniques on Hugo Loiseau</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language><atom:link href="https://hloiseau.github.io/categories/comp%C3%A9tences-techniques/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-us</language><atom:link href="http://examplesite.com/categories/comp%C3%A9tences-techniques/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Blazor</title>
-      <link>https://hloiseau.github.io/skills/blazor/</link>
+      <link>http://examplesite.com/skills/blazor/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://hloiseau.github.io/skills/blazor/</guid>
+      <guid>http://examplesite.com/skills/blazor/</guid>
       <description>Lors de mon alternance chez Ketchapp, j’ai découvert une nouvelle technologie Microsoft, Blazor.</description>
     </item>
     
     <item>
       <title>C#</title>
-      <link>https://hloiseau.github.io/skills/csharp/</link>
+      <link>http://examplesite.com/skills/csharp/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://hloiseau.github.io/skills/csharp/</guid>
+      <guid>http://examplesite.com/skills/csharp/</guid>
       <description>À IN’TECH Lors de mon cursus à IN’TECH, j’ai découvert Le C# en réalisant un jeu avec MonoGame, j’ai également réalisé deux applications web Fusion (permettant d’envoyer des SMS depuis son ordinateur) et Bitcoin casino (un casino utilisant le Bitcoin comme monnaie), elles ont toutes les deux étaient développées avec un backend ASP NET CORE.</description>
     </item>
     
     <item>
       <title>Front End</title>
-      <link>https://hloiseau.github.io/skills/frontend/</link>
+      <link>http://examplesite.com/skills/frontend/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://hloiseau.github.io/skills/frontend/</guid>
+      <guid>http://examplesite.com/skills/frontend/</guid>
       <description>A IN’TECH Lors de mon cursus à IN’TECH, j’ai eu l’occasion de travailler sur l’ensemble des Frameworks web, en JavaScript et en TypeScript.</description>
     </item>
     

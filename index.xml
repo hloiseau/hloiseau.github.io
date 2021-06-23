@@ -2,116 +2,116 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Hugo Loiseau</title>
-    <link>https://hloiseau.github.io/</link>
+    <link>http://examplesite.com/</link>
     <description>Recent content on Hugo Loiseau</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 01 Sep 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://hloiseau.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 01 Sep 2020 00:00:00 +0000</lastBuildDate><atom:link href="http://examplesite.com/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Portails Ketchapp en Blazor</title>
-      <link>https://hloiseau.github.io/projects/ketchapp/</link>
+      <link>http://examplesite.com/projects/ketchapp/</link>
       <pubDate>Tue, 01 Sep 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://hloiseau.github.io/projects/ketchapp/</guid>
+      <guid>http://examplesite.com/projects/ketchapp/</guid>
       <description>Application internes et externes Lors de mon alternance chez Ketchapp, j’ai travaillé sur 2 portails distincts permettant de faciliter la gestion de nos partenariats, de nos jeux, ainsi que les différents tests nécessaires.</description>
     </item>
     
     <item>
       <title>Cahier Numérique de l&#39;Entraineur</title>
-      <link>https://hloiseau.github.io/projects/cne/</link>
+      <link>http://examplesite.com/projects/cne/</link>
       <pubDate>Mon, 01 Apr 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://hloiseau.github.io/projects/cne/</guid>
+      <guid>http://examplesite.com/projects/cne/</guid>
       <description>Remplacer les traditionnelles papiers et crayons Le CNE ou Cahier Numérique de L’Entraineur, est un projet ayant pour but de réunir tous les outils numériques nécessaires aux entraineurs de sportifs de haut niveau, conformément aux méthodes d’entrainements modernes.</description>
     </item>
     
     <item>
       <title>Vue 360° de l&#39;INSEP</title>
-      <link>https://hloiseau.github.io/projects/vue360/</link>
+      <link>http://examplesite.com/projects/vue360/</link>
       <pubDate>Mon, 01 Apr 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://hloiseau.github.io/projects/vue360/</guid>
+      <guid>http://examplesite.com/projects/vue360/</guid>
       <description>A partir de zéro Lors de mon stage à l’INSEP, j’ai eu pour missions de réaliser, à partir de zéro, une vue 360° du campus de Vincennes.</description>
     </item>
     
     <item>
       <title>All’In: Casino Bitcoin</title>
-      <link>https://hloiseau.github.io/projects/allin/</link>
+      <link>http://examplesite.com/projects/allin/</link>
       <pubDate>Sat, 01 Sep 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://hloiseau.github.io/projects/allin/</guid>
+      <guid>http://examplesite.com/projects/allin/</guid>
       <description>All&amp;rsquo;In est une regroupe plusieurs jeux de casino comme le poker, le blackjack ou encore le yams.</description>
     </item>
     
     <item>
       <title>Fusion</title>
-      <link>https://hloiseau.github.io/projects/fusion/</link>
+      <link>http://examplesite.com/projects/fusion/</link>
       <pubDate>Sun, 01 Apr 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://hloiseau.github.io/projects/fusion/</guid>
+      <guid>http://examplesite.com/projects/fusion/</guid>
       <description>Fusion est une application ayant pour but de « Fusionner » les différentes fonctionnalités de votre téléphone Android avec vos autres appareils.</description>
     </item>
     
     <item>
       <title>Agilité</title>
-      <link>https://hloiseau.github.io/skills/agilit%C3%A9/</link>
+      <link>http://examplesite.com/skills/agilit%C3%A9/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://hloiseau.github.io/skills/agilit%C3%A9/</guid>
+      <guid>http://examplesite.com/skills/agilit%C3%A9/</guid>
       <description>Découverte de l’agilité IN’TECH m’a fait découvrir l’agilité grâce à un grand nombre de cours et des intervenants de grande qualité.</description>
     </item>
     
     <item>
       <title>Ambitieux</title>
-      <link>https://hloiseau.github.io/skills/ambitieux/</link>
+      <link>http://examplesite.com/skills/ambitieux/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://hloiseau.github.io/skills/ambitieux/</guid>
+      <guid>http://examplesite.com/skills/ambitieux/</guid>
       <description>L’ambition se trouve partout dans mon milieu professionnel. C’est une qualité essentielle pour intégrer la prestigieuse institution qu’est l’INSEP.</description>
     </item>
     
     <item>
       <title>Autoformation</title>
-      <link>https://hloiseau.github.io/skills/autoformation/</link>
+      <link>http://examplesite.com/skills/autoformation/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://hloiseau.github.io/skills/autoformation/</guid>
+      <guid>http://examplesite.com/skills/autoformation/</guid>
       <description>Une autoformation qui commence très tôt À l’âge de 10 ans, j’ai eu la chance de découvrir le site du zéro, désormais nommé Open Classroom.</description>
     </item>
     
     <item>
       <title>Blazor</title>
-      <link>https://hloiseau.github.io/skills/blazor/</link>
+      <link>http://examplesite.com/skills/blazor/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://hloiseau.github.io/skills/blazor/</guid>
+      <guid>http://examplesite.com/skills/blazor/</guid>
       <description>Lors de mon alternance chez Ketchapp, j’ai découvert une nouvelle technologie Microsoft, Blazor.</description>
     </item>
     
     <item>
       <title>C#</title>
-      <link>https://hloiseau.github.io/skills/csharp/</link>
+      <link>http://examplesite.com/skills/csharp/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://hloiseau.github.io/skills/csharp/</guid>
+      <guid>http://examplesite.com/skills/csharp/</guid>
       <description>À IN’TECH Lors de mon cursus à IN’TECH, j’ai découvert Le C# en réalisant un jeu avec MonoGame, j’ai également réalisé deux applications web Fusion (permettant d’envoyer des SMS depuis son ordinateur) et Bitcoin casino (un casino utilisant le Bitcoin comme monnaie), elles ont toutes les deux étaient développées avec un backend ASP NET CORE.</description>
     </item>
     
     <item>
       <title>Front End</title>
-      <link>https://hloiseau.github.io/skills/frontend/</link>
+      <link>http://examplesite.com/skills/frontend/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://hloiseau.github.io/skills/frontend/</guid>
+      <guid>http://examplesite.com/skills/frontend/</guid>
       <description>A IN’TECH Lors de mon cursus à IN’TECH, j’ai eu l’occasion de travailler sur l’ensemble des Frameworks web, en JavaScript et en TypeScript.</description>
     </item>
     
     <item>
       <title>Pérsévérance</title>
-      <link>https://hloiseau.github.io/skills/pers%C3%A9v%C3%A9rance/</link>
+      <link>http://examplesite.com/skills/pers%C3%A9v%C3%A9rance/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://hloiseau.github.io/skills/pers%C3%A9v%C3%A9rance/</guid>
+      <guid>http://examplesite.com/skills/pers%C3%A9v%C3%A9rance/</guid>
       <description>Face à la maladie À l’adolescence, j’ai été confronté à une maladie très handicapante pour ma vie quotidienne et pour ma scolarité.</description>
     </item>
     

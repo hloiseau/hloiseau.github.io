@@ -2,26 +2,26 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Réalisations scolaires on Hugo Loiseau</title>
-    <link>https://hloiseau.github.io/categories/r%C3%A9alisations-scolaires/</link>
+    <link>http://examplesite.com/categories/r%C3%A9alisations-scolaires/</link>
     <description>Recent content in Réalisations scolaires on Hugo Loiseau</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 01 Sep 2018 00:00:00 +0000</lastBuildDate><atom:link href="https://hloiseau.github.io/categories/r%C3%A9alisations-scolaires/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 01 Sep 2018 00:00:00 +0000</lastBuildDate><atom:link href="http://examplesite.com/categories/r%C3%A9alisations-scolaires/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>All’In: Casino Bitcoin</title>
-      <link>https://hloiseau.github.io/projects/allin/</link>
+      <link>http://examplesite.com/projects/allin/</link>
       <pubDate>Sat, 01 Sep 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://hloiseau.github.io/projects/allin/</guid>
+      <guid>http://examplesite.com/projects/allin/</guid>
       <description>All&amp;rsquo;In est une regroupe plusieurs jeux de casino comme le poker, le blackjack ou encore le yams.</description>
     </item>
     
     <item>
       <title>Fusion</title>
-      <link>https://hloiseau.github.io/projects/fusion/</link>
+      <link>http://examplesite.com/projects/fusion/</link>
       <pubDate>Sun, 01 Apr 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://hloiseau.github.io/projects/fusion/</guid>
+      <guid>http://examplesite.com/projects/fusion/</guid>
       <description>Fusion est une application ayant pour but de « Fusionner » les différentes fonctionnalités de votre téléphone Android avec vos autres appareils.</description>
     </item>
     
