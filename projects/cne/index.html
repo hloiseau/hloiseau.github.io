@@ -5,7 +5,7 @@
 
   <!-- mobile responsive meta -->
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description" content="This is meta description.">
+  <meta name="description" content="Cahier Numérique de l&#39;Entraineur">
   <meta name="author" content="Hugo Loiseau">
   <meta name="generator" content="Hugo 0.83.1" />
 
@@ -41,8 +41,8 @@
   <link rel="stylesheet" href="https://hloiseau.github.io/css/skills.min.css" media="screen">
 
   <!--Favicon-->
-  <link rel="shortcut icon" href="https://hloiseau.github.io/images/favicon.png " type="image/x-icon">
-  <link rel="icon" href="https://hloiseau.github.io/images/favicon.png " type="image/x-icon">
+  <link rel="shortcut icon" href="https://hloiseau.github.io/images/favicon.svg " type="image/x-icon">
+  <link rel="icon" href="https://hloiseau.github.io/images/favicon.svg " type="image/x-icon">
 
   
 
@@ -157,25 +157,42 @@
         </div>
       </div>
       <div class="col-lg-11">
-        <div class="content"><h4 id="remplacer-les-traditionnelles-papiers-et-crayons">Remplacer les traditionnelles papiers et crayons</h4>
-<p>Le CNE ou Cahier Numérique de L’Entraineur, est un projet ayant pour but de réunir tous les outils numériques nécessaires aux entraineurs de sportifs de haut niveau, conformément aux méthodes d’entrainements modernes. Il est composé de deux Front distincts, un réalisés en <strong>WPF</strong> ayant pour but de fonctionner sur PC et tablettes Windows et un autre en <strong>Vue.js</strong> prévu pour le web. Les deux applications fonctionnent avec le même backend réalisé en <strong>ASP NET CORE</strong> et une base de données <strong>SQL Server</strong></p>
-<h4 id="une-plateforme-complète-et-efficace">Une plateforme complète et efficace</h4>
-<p>La plateforme est composée de 3 parties distinct :</p>
-<ul>
-<li>Un éditeur d’exercice permettant aux entraineurs de créer un exercice et de l’illustrer</li>
-<li>Un éditeur de cycle d’entrainement permettant « d’assembler » les exercices pour créer un programme d’entrainement</li>
-<li>Un système de planification permettant de planifier des entrainements, de notifier, contrôler les disponibilités et l’état de santé des sportifs.</li>
-</ul>
-<h4 id="un-éditeur-graphique-difficile-à-mettre-en-place">Un éditeur graphique difficile à mettre en place</h4>
-<p>Avec cette application j’ai rencontré plusieurs difficultés, la première et la plus importante est l’éditeur graphique sur lequel j’ai travaillé en WPF et en JavaScript, les deux partageant les mêmes icônes et devant être éditable en WPF et en JavaScript. Cet éditeur permet aux entraineurs d’illustrer facilement à l’aide d’icônes leurs exercices.</p>
-<h4 id="pipelines-de-déploiements">Pipelines de déploiements</h4>
-<p>J’avais également la charge de toute la partie déploiement du CNE, pour ce faire nous avons utilisé les pipelines de <strong>Gitlab</strong> pour tester et mettre en ligne la plateforme sur le datacenter de l’INSEP.</p>
+        <div class="content"><h4 id="au-service-des-entraineurs">Au service des entraineurs</h4>
+<p>L’Éditeur Numérique d’Entrainement est un logiciel développé au sein de l’Institut National du Sport, de l’Expertise et de la Performance (INSEP) par les développeurs de l’Unité du Développement Numérique et de l’Innovation.
+Ce logiciel a été pensé et développé pour fournir aux entraineurs sportifs un outil qui leur permet de ne plus avoir à tout faire sur papier.</p>
+<p>Les entraineurs avec lesquels nous avons travaillé, nous ont exposé que leurs moyens actuels, en plus d’être anciens, finissaient le plus souvent en pile de cahier et classeurs où les mêmes leçons sont réécrites plusieurs fois à l’identique, car ils n’ont pas le temps de chercher dans tout ce qu’ils ont déjà écrit.</p>
+<h4 id="la-création-dexercices">La création d’exercices</h4>
+<p>Nous avons donc commencé par mettre en place une application Windows WPF permettant de créer des exercices.
+Pour créer un exercice, il vous suffit de donner à ce dernier un nom, un public cible, un niveau et plusieurs autres paramètres permettant de le classifier.</p>
+<p>Une fois le premier « formulaire » d’identification de l’exercice rempli, vous accédez donc à la vue éditrice, vous permettant de placer des images vectorielles sur un Canvas pour réaliser le schéma de votre exercice. Je me suis principalement chargé de cette fonctionnalité.</p>
+<p>Sur cette même page, vous pouvez accéder aux paramètres de l’exercice, afin de déterminer une durée, la liste des données observables, des variables de travail, une description de l’exercice, un objectif d’exercice, une vidéo exemple et bien d’autres encore.</p>
+<p>L’avantage de cet outil est qu’il est grandement personnalisable. En effet, vous pouvez ajouter vos propres formulaires, permettant à l’outil d’être pertinent sur l’ensemble des disciplines sportives.
+Malgré un succès mitigé de cette application, la décision a été prise de créer une suite logicielle autour de celui-ci : Le Cahier Numérique de l’entraineur.</p>
+<p>Cette suite comporte donc 4 logiciels :</p>
+<h5 id="léditeur-numérique-dentrainement-ene">L’Éditeur Numérique d’Entrainement (ENE)</h5>
+<p>L’Éditeur reste le même sur la création d’exercices, mais la partie création de formulaire a été déplacée sur le GBP.</p>
+<h5 id="le-gestionnaire-de-cycles-dentrainement-gce">Le Gestionnaire de Cycles d’Entrainement (GCE)</h5>
+<p>Ce logiciel permet aux entraineurs de l’utiliser pour créer des groupes d’exercices via un certain critère de travail, et de les ordonner par certains critères de difficulté ou autre.</p>
+<h5 id="le-gestionnaire-de-base-de-données-pédagogique-gbp">Le Gestionnaire de Base de données Pédagogique (GBP)</h5>
+<p>Ce logiciel reprend toute la partie de création de formulaires pour les autres outils.</p>
+<h5 id="le-gestionnaire-de-planification-gp">Le Gestionnaire de Planification (GP)</h5>
+<p>Ce logiciel permet une planification des cycles et de proposer une représentation graphique du planning de l’entraineur, où il peut aisément voir ce qu’il a prévu pour tel jour, quel axe de travail correspond à quelle période ainsi que la disponibilité de chacun des sportifs dont il s’occupe.</p>
+<h4 id="cne-web">CNE Web</h4>
+<p>Nous avons pris la décision de créer une version web de ces outils. Ayant le plus d’expérience dans ce domaine au sein de l’équipe, je me suis occupé seul du développement de cette partie du projet. Nous avons fait ce choix à la suite de l’évolution du parc informatique des entraineurs français. L’application étant prévue à la base pour Windows, il nous fallait une alternative pour Mac, Linux et tablettes.</p>
+<h4 id="un-échec">Un échec</h4>
+<p>Après plus d’un an et demi de travail sur cette suite de logiciels, plusieurs problèmes gangrenaient le projet :
+Nous n’avions aucun contact avec les entraineurs pendant les phases de tests du projet, il nous était donc impossible de savoir si l’interface utilisateur était suffisamment compréhensible, si l’application répondait correctement aux besoins ou s’il y avait des bugs et problèmes divers.</p>
+<p>Pendant les six premiers mois, les spécifications et les priorités changeaient chaque semaine, nous obligeant à mettre en pause ou supprimer purement et simplement des fonctionnalités. Pour juguler le problème, j’ai été nommé assistant-chef de projet, j’ai mis en place le Scrum au sein des équipes de développement et j’ai supervisé la mise en place de Jira pour l’ensemble de l’unité. Malgré tout, je n’avais aucun contrôle sur les décisions d’ordre politique, celles-ci continuant d’impacter fortement le projet.</p>
+<p>Bien que le projet soit terminé à 80 %, il est actuellement en attente. D’autres projets prioritaires l’ont remplacé.</p>
+<h4 id="une-réussite-personnelle">Une réussite personnelle</h4>
+<p>Ce projet a été ma première expérience de développement au sein d’une entreprise. Le manque d’organisation, de mentorat technique et de direction dans celui-ci m’a poussé à prendre des décisions importante, qu’elles soient techniques ou organisationnelles. J’ai appris à travailler en toute indépendance, à architecturer une application web et manager une équipe. Cette expérience était très difficile à vivre mais en persévérant malgré tout, j’ai énormément appris et pour cela, je remercie toutes les parties prenantes qui m’ont écouté et ont essayé d’améliorer la situation avec moi.</p>
 <h4 id="liens-vers-les-compétences-associés">Liens vers les compétences associés:</h4>
 <ul>
 <li><a href="https://hloiseau.github.io/skills/autoformation/">Autoformation</a></li>
 <li><a href="https://hloiseau.github.io/skills/agilit%C3%A9/">Agilité</a></li>
 <li><a href="https://hloiseau.github.io/skills/frontend/">Front End</a></li>
 <li><a href="https://hloiseau.github.io/skills/csharp/">C#</a></li>
+<li><a href="https://hloiseau.github.io/skills/pers%C3%A9v%C3%A9rance/">Persévérance</a></li>
 </ul>
 </div>
       </div>

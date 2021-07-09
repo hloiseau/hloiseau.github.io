@@ -8,12 +8,12 @@
     <language>en-us</language>
     <lastBuildDate>Tue, 01 Sep 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://hloiseau.github.io/categories/r%C3%A9alisations-professionels/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Portails Ketchapp en Blazor</title>
+      <title>Portails Ketchapp</title>
       <link>https://hloiseau.github.io/projects/ketchapp/</link>
       <pubDate>Tue, 01 Sep 2020 00:00:00 +0000</pubDate>
       
       <guid>https://hloiseau.github.io/projects/ketchapp/</guid>
-      <description>Application internes et externes Lors de mon alternance chez Ketchapp, j’ai travaillé sur 2 portails distincts permettant de faciliter la gestion de nos partenariats, de nos jeux, ainsi que les différents tests nécessaires.</description>
+      <description>Applications internes et externes Lors de mon alternance chez Ketchapp, j’ai travaillé sur 2 portails distincts permettant de faciliter la gestion de nos partenariats, de nos jeux, ainsi que les différents tests nécessaires.</description>
     </item>
     
     <item>
@@ -22,7 +22,7 @@
       <pubDate>Mon, 01 Apr 2019 00:00:00 +0000</pubDate>
       
       <guid>https://hloiseau.github.io/projects/cne/</guid>
-      <description>Remplacer les traditionnelles papiers et crayons Le CNE ou Cahier Numérique de L’Entraineur, est un projet ayant pour but de réunir tous les outils numériques nécessaires aux entraineurs de sportifs de haut niveau, conformément aux méthodes d’entrainements modernes.</description>
+      <description>Au service des entraineurs L’Éditeur Numérique d’Entrainement est un logiciel développé au sein de l’Institut National du Sport, de l’Expertise et de la Performance (INSEP) par les développeurs de l’Unité du Développement Numérique et de l’Innovation.</description>
     </item>
     
     <item>
@@ -31,7 +31,7 @@
       <pubDate>Mon, 01 Apr 2019 00:00:00 +0000</pubDate>
       
       <guid>https://hloiseau.github.io/projects/vue360/</guid>
-      <description>A partir de zéro Lors de mon stage à l’INSEP, j’ai eu pour missions de réaliser, à partir de zéro, une vue 360° du campus de Vincennes.</description>
+      <description>Lors de mon stage à l’INSEP, j’ai eu pour missions de réaliser une vue 360° du campus de Vincennes, l’objectif étant de l’inclure dans la refonte du site internet de l’institut pour permettre aux futurs étudiants et personnels de voir le campus.</description>
     </item>
     
   </channel>
